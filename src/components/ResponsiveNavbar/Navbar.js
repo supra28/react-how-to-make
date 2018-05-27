@@ -5,15 +5,11 @@ class Navbar extends Component {
   state = { open: false };
 
   toggleMenu = () => {
-    console.log("tototo");
     this.setState({ open: !this.state.open });
   };
   render() {
     return (
-      <nav
-        className={`topnav ${this.state.open ? "responsive" : ""}`}
-        ref={this.navRef}
-      >
+      <nav className={`topnav ${this.state.open ? "responsive" : ""}`}>
         <a href="#home" className="active">
           Home
         </a>

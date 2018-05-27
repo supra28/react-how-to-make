@@ -17,8 +17,6 @@ class Navbar extends Component {
   }
 
   handleScroll = () => {
-    console.log("scrolling");
-    console.log(window.pageYOffset);
     var currentScrollPos = window.pageYOffset;
     if (this.prevScrollpos > currentScrollPos) {
       this.setState({ hidden: false });
@@ -26,7 +24,6 @@ class Navbar extends Component {
       this.prevScrollpos < currentScrollPos + 15 &&
       window.pageYOffset > 48
     ) {
-      console.log("aaayaya");
       this.setState({ hidden: true });
     }
     this.prevScrollpos = currentScrollPos;

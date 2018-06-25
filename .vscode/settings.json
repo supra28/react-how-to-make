@@ -1,10 +1,10 @@
 {
-    "workbench.colorTheme": "Abyss",
-    "editor.fontSize": 12,
-    "editor.tabSize": 2,
-    "editor.fontFamily": "Monaco",
-    "editor.fontLigatures": true,
-    "editor.minimap.enabled": true,
-    "editor.dragAndDrop": true,
-    "editor.formatOnSave": true
-  }
+  "workbench.colorTheme": "Abyss",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.dragAndDrop": true,
+  "editor.formatOnSave": true
+}
